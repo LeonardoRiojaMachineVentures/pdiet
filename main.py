@@ -9,3 +9,4 @@ opt = linprog(c=obj, A_ub=lhs_ineq, b_ub=rhs_ineq,A_eq=lhs_eq, b_eq=rhs_eq, boun
 print(opt)
 a = [round(i*100.0, 2) for i in opt.x]
 print(a)
+
